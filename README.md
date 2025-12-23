@@ -26,23 +26,37 @@ management strategies.
 ---
 
 ## Repository Structure
+
 .
+├── README.md
+│
 ├── code/
-│   ├── BigBangDataset.ipynb
-│   ├── Demand_Index.ipynb
-│   ├── Neural_Prophet_Forecasting.ipynb
-│   └── modello_neuralprophet.pkl
+│   ├── 01_BigBangDataset.ipynb
+│   ├── 02_Demand_Index.ipynb
+│   └── 03_Neural_Prophet_Forecasting.ipynb
+│
+├── models/
+│   └── neuralprophet_water_availability.pkl
 │
 └── dataset/
-    ├── Bacino.shp
-    ├── SPI3/
-    ├── Q_tot.xlsx
-    ├── Full_Dataset.xlsx
-    ├── Full_Dataset_HeavyRain.xlsx
-    ├── Full_Dataset_Heatwave.xlsx
-    ├── IDro_Dataset.xlsx
-    ├── IDro_Dataset_HeavyRain.xlsx
-    └── IDro_Dataset_Heatwave.xlsx
+    ├── basin/
+    │   └── Bacino.shp
+    │
+    ├── bigbang/
+    │   └── SPI3/
+    │
+    ├── observed/
+    │   ├── Full_Dataset.xlsx
+    │   └── IDro_Dataset.xlsx
+    │
+    └── scenarios/
+        ├── heatwave/
+        │   ├── Full_Dataset_Heatwave.xlsx
+        │   └── IDro_Dataset_Heatwave.xlsx
+        │
+        └── heavyrain/
+            ├── Full_Dataset_HeavyRain.xlsx
+            └── IDro_Dataset_HeavyRain.xlsx
 
 
 
@@ -108,14 +122,14 @@ the proposed framework.
 - **`Full_Dataset_Heatwave.xlsx`**  
   Dataset representing a heatwave scenario, used for scenario-based simulations.
 
-- **`IDro_Dataset.xlsx`**  
+- **`Idro_Dataset.xlsx`**  
   Dataset used to train the Neural Prophet model for total water availability.
 
-- **`IDro_Dataset_HeavyRain.xlsx`**  
+- **`Idro_Dataset_HeavyRain.xlsx`**  
   Scenario-specific dataset used to simulate heavy rainfall conditions for water
   availability forecasting.
 
-- **`IDro_Dataset_Heatwave.xlsx`**  
+- **`Idro_Dataset_Heatwave.xlsx`**  
   Scenario-specific dataset used to simulate heatwave conditions for water
   availability forecasting.
 
