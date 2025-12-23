@@ -31,30 +31,21 @@ management strategies.
 .
 ├── README.md
 ├── code/
-│   ├── 01_BigBangDataset.ipynb
-│   ├── 02_Demand_Index.ipynb
-│   └── 03_Neural_Prophet_Forecasting.ipynb
-│   └── neuralprophet_water_availability.pkl
+│ ├── BigBangDataset.ipynb
+│ ├── Demand_Index.ipynb
+│ ├── Neural_Prophet_Forecasting.ipynb
+│ └── modello_neuralprophet.pkl
 │
 └── dataset/
-    ├── basin/
-    │   └── Bacino.shp
-    │
-    ├── bigbang/
-    │   └── SPI3/
-    │
-    ├── observed/
-    │   ├── Full_Dataset.xlsx
-    │   └── IDro_Dataset.xlsx
-    │
-    └── scenarios/
-        ├── heatwave/
-        │   ├── Full_Dataset_Heatwave.xlsx
-        │   └── IDro_Dataset_Heatwave.xlsx
-        │
-        └── heavyrain/
-            ├── Full_Dataset_HeavyRain.xlsx
-            └── IDro_Dataset_HeavyRain.xlsx
+├── Bacino.shp
+├── SPI3/
+├── Q_tot.xlsx
+├── Full_Dataset.xlsx
+├── Full_Dataset_HeavyRain.xlsx
+├── Full_Dataset_Heatwave.xlsx
+├── IDro_Dataset.xlsx
+├── IDro_Dataset_HeavyRain.xlsx
+└── IDro_Dataset_Heatwave.xlsx
 ```
 
 ---
