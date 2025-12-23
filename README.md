@@ -34,8 +34,6 @@ management strategies.
 │   ├── 01_BigBangDataset.ipynb
 │   ├── 02_Demand_Index.ipynb
 │   └── 03_Neural_Prophet_Forecasting.ipynb
-│
-├── models/
 │   └── neuralprophet_water_availability.pkl
 │
 └── dataset/
