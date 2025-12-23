@@ -6,7 +6,7 @@ This repository contains the datasets and Python code associated with the articl
 
 Authors: *Nicolò Ciuccoli, *, Davide Fronzi, Alberto Tazioli, Anna Laura Eusebi, Francesco Fatone*  
 Affiliations: *Università Politecnica delle Marche (UNIVPM), SIMAU Department*  
-Contact: Nicolò Ciuccoli*[n.ciuccoli@staff.univpm.it]*  
+Contact: Nicolò Ciuccoli* (n.ciuccoli@staff.univpm.it)*  
 
 This work was developed within the European project **TREASURE**, funded under the  
 **Water4All Partnership (Horizon Europe, Grant Agreement No. 101060874)**.
