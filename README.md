@@ -163,14 +163,9 @@ The notebooks require the following Python libraries:
 ---
 
 ## License
-Copyright (C) 2025 *[Authors]*  
-
-This repository is distributed for academic and research purposes.
-Please cite the associated article if you use this code or the datasets.
+Copyright (C) 2025 Nicolò Ciuccoli, Davide Fronzi, Alberto Tazioli, Anna Laura Eusebi, Francesco Fatone.
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
 ---
 
-## Citation
-If you use this repository, please cite:
 
-> *[Full paper citation once accepted]*
