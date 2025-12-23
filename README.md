@@ -27,9 +27,9 @@ management strategies.
 
 ## Repository Structure
 
+```text
 .
 ├── README.md
-│
 ├── code/
 │   ├── 01_BigBangDataset.ipynb
 │   ├── 02_Demand_Index.ipynb
@@ -57,8 +57,7 @@ management strategies.
         └── heavyrain/
             ├── Full_Dataset_HeavyRain.xlsx
             └── IDro_Dataset_HeavyRain.xlsx
-
-
+```
 
 ---
 
