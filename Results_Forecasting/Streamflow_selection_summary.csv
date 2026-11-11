@@ -1,0 +1,24 @@
+Method,Config,RMSE_mean,RMSE_sd
+Flow persistence + MEF,{},4.7422932562042766,0.8126440271095664
+Log-ARX flow (lagged P) + MEF,"{""order"": [1, 0, 1], ""seasonal"": [1, 0, 0, 12]}",3.631065999780923,0.6122160546210624
+Log-ARX flow (lagged P) + MEF,"{""order"": [2, 0, 1], ""seasonal"": [1, 0, 1, 12]}",3.640337719219803,0.5287825369469363
+Log-ARX flow (lagged P) + MEF,"{""order"": [2, 0, 1], ""seasonal"": [1, 0, 0, 12]}",3.657652692223364,0.5488337388310216
+Log-ARX flow (lagged P) + MEF,"{""order"": [1, 0, 1], ""seasonal"": [1, 0, 1, 12]}",3.666684208955996,0.535621406683974
+Log-ARX flow (lagged P) + MEF,"{""order"": [1, 0, 1], ""seasonal"": [0, 0, 0, 0]}",3.6700643718492394,0.32228780326796785
+Log-ARX flow (lagged P) + MEF,"{""order"": [2, 0, 1], ""seasonal"": [0, 0, 0, 0]}",3.6737833949203598,0.44390532397194066
+Log-ARX flow (lagged P) + MEF,"{""order"": [1, 0, 0], ""seasonal"": [1, 0, 1, 12]}",3.7087276501824387,0.8296419602524807
+Log-ARX flow (lagged P) + MEF,"{""order"": [1, 0, 0], ""seasonal"": [1, 0, 0, 12]}",3.716532050484533,0.8782698694490816
+Log-ARX flow (lagged P) + MEF,"{""order"": [1, 0, 0], ""seasonal"": [0, 0, 0, 0]}",3.879712800660864,0.387453246052736
+Log-SARIMA flow + MEF,"{""order"": [1, 0, 1], ""seasonal"": [0, 0, 0, 0]}",3.6751393653214435,0.8177680449714669
+Log-SARIMA flow + MEF,"{""order"": [1, 0, 1], ""seasonal"": [1, 0, 1, 12]}",3.6818852715398815,0.8661916227848232
+Log-SARIMA flow + MEF,"{""order"": [1, 0, 1], ""seasonal"": [1, 0, 0, 12]}",3.7083355315375606,0.892820190843291
+Log-SARIMA flow + MEF,"{""order"": [2, 0, 1], ""seasonal"": [1, 0, 0, 12]}",3.7494364215974234,0.9691693019192068
+Log-SARIMA flow + MEF,"{""order"": [2, 0, 1], ""seasonal"": [1, 0, 1, 12]}",3.765874705496627,0.9319885779170312
+Log-SARIMA flow + MEF,"{""order"": [1, 0, 0], ""seasonal"": [1, 0, 1, 12]}",4.10344738493201,0.8191245261832962
+Log-SARIMA flow + MEF,"{""order"": [2, 0, 1], ""seasonal"": [0, 0, 0, 0]}",4.1093558441507385,1.0436200519525731
+Log-SARIMA flow + MEF,"{""order"": [1, 0, 0], ""seasonal"": [0, 0, 0, 0]}",4.261236484875024,0.9690606115354441
+Log-SARIMA flow + MEF,"{""order"": [1, 0, 0], ""seasonal"": [1, 0, 0, 12]}",4.279237548487868,0.9467670427621308
+NeuralProphet flow + MEF,"{""n_lags"": 3, ""hidden"": [4], ""learning_rate"": 0.01, ""yearly"": false, ""growth"": ""off""}",4.005781327177906,1.3056052435381307
+Random forest flow + MEF,"{""min_samples_leaf"": 5}",4.583197276968415,1.0838553057787221
+Random forest flow + MEF,"{""min_samples_leaf"": 3}",5.157429195812859,1.6684357375432335
+Random forest flow + MEF,"{""min_samples_leaf"": 1}",7.701598306687255,5.60534297084086

@@ -1,0 +1,6 @@
+Column_in_code,Manuscript_symbol,Meaning
+Q_tronto,Qr (Eq. 1),Tronto river discharge
+Q_tot,Qtot before MEF,Q_tronto + local terms
+Q_Disp,Qtot (Eq. 1),Q_tot - MEF: the forecast target
+Q_tot - Q_tronto,INF + RO + URo + Qaq,"Local terms, to be confirmed"
+Q_tot - Q_Disp,MEF,Minimum environmental flow

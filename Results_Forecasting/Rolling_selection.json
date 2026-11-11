@@ -1,0 +1,110 @@
+{
+  "SPI3": {
+    "ARIMA": {
+      "order": [
+        1,
+        0,
+        2
+      ]
+    },
+    "Linear AR": {
+      "n_lags": 12
+    },
+    "Monthly climatology": {},
+    "NeuralProphet": {
+      "n_lags": 3,
+      "hidden": [
+        8
+      ],
+      "learning_rate": 0.01,
+      "yearly": true,
+      "growth": "off"
+    },
+    "Persistence": {},
+    "SARIMA": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "seasonal": [
+        1,
+        0,
+        0,
+        12
+      ]
+    }
+  },
+  "SPEI3": {
+    "ARIMA": {
+      "order": [
+        1,
+        0,
+        2
+      ]
+    },
+    "Linear AR": {
+      "n_lags": 12
+    },
+    "Monthly climatology": {},
+    "NeuralProphet": {
+      "n_lags": 3,
+      "hidden": [
+        8
+      ],
+      "learning_rate": 0.01,
+      "yearly": true,
+      "growth": "off"
+    },
+    "Persistence": {},
+    "SARIMA": {
+      "order": [
+        1,
+        0,
+        1
+      ],
+      "seasonal": [
+        1,
+        0,
+        0,
+        12
+      ]
+    }
+  },
+  "Q_Disp": {
+    "ARIMA": {
+      "order": [
+        1,
+        0,
+        2
+      ]
+    },
+    "Linear AR": {
+      "n_lags": 3
+    },
+    "Monthly climatology": {},
+    "NeuralProphet": {
+      "n_lags": 3,
+      "hidden": [
+        4
+      ],
+      "learning_rate": 0.01,
+      "yearly": false,
+      "growth": "off"
+    },
+    "Persistence": {},
+    "SARIMA": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "seasonal": [
+        1,
+        0,
+        1,
+        12
+      ]
+    }
+  }
+}

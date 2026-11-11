@@ -1,0 +1,5 @@
+Case,Threshold,Period,Hits,Misses,False_alarms,CSI
+Without reuse,0.1,Validation,4,0,2,0.6666666666666666
+Without reuse,0.1,Test,2,0,2,0.5
+With reuse,0.1,Validation,4,0,2,0.6666666666666666
+With reuse,0.1,Test,1,1,1,0.3333333333333333

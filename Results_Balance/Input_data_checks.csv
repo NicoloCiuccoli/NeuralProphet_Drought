@@ -1,0 +1,7 @@
+Check,Result
+WW: years with the same monthly profile as 2013,"2013, 2014, 2015, 2016, 2017, 2018"
+Agriculture: same monthly profile in every year,True
+Abstractions: constant value,True
+Civil abstractions: all zero,True
+Lakes: missing months,12 months in [2023]
+Mean demand / mean Q_tot,0.71%

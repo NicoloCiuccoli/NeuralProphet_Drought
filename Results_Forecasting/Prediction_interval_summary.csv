@@ -1,0 +1,4 @@
+Target,Nominal_coverage,Calibration_months,Half_width,Test_months,Empirical_coverage,Months_outside
+SPI3,0.9,120,1.0357726028026675,128,0.8828125,15
+SPEI3,0.9,120,0.9954877920568261,128,0.8828125,15
+Q_Disp,0.9,36,6.751274808636389,18,0.7222222222222222,5

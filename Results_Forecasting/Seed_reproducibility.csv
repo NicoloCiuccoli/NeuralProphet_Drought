@@ -1,0 +1,4 @@
+Target,Seed,Max_abs_difference,Reproducible
+SPI3,42,0.0,True
+SPEI3,42,0.0,True
+Q_Disp,42,0.0,True
