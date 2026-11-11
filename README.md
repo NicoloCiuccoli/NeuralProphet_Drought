@@ -95,6 +95,6 @@ Check the import cells in each notebook for its specific requirements. Python st
 
 ## License
 
-Copyright (C) 2025 Nicolò Ciuccoli, Davide Fronzi, Alberto Tazioli, Anna Laura Eusebi, Francesco Fatone.
+Copyright (C) 2026 Nicolò Ciuccoli, Federica Simonetti
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
