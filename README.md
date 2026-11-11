@@ -4,7 +4,7 @@ This repository contains the datasets, Python notebooks, and results associated 
 
 **“On Forecasting Hydrological Drought and Water Balance in central Italy: Assessing Irrigation Deficit and Water Reuse Opportunities in the Sentina area”**
 
-Authors: Nicolò Ciuccoli*, Davide Fronzi, Alberto Tazioli, Anna Laura Eusebi, Francesco Fatone  
+Authors: Nicolò Ciuccoli*, Davide Fronzi, Federica Simonetti, Alberto Tazioli, Anna Laura Eusebi, Francesco Fatone  
 Affiliation: Università Politecnica delle Marche (UNIVPM), SIMAU Department  
 *Corresponding author: Nicolò Ciuccoli (n.ciuccoli@staff.univpm.it)
 
